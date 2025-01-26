@@ -1,0 +1,44 @@
+html, body {
+    margin: 0px;
+    background-color: hsl(122, 25%, 25%);
+    color: white;
+}
+
+.historial-partidas {
+    text-align: center;
+    padding: 15px;
+}
+.container-historial{
+    display: flex;
+    justify-content: space-evenly; /* Espaciado entre los elementos */
+    align-items: center; /* Alineación vertical */
+}
+
+.div-player-histotial {
+    width: 45%; /* Ancho del div */
+    background-color: hsl(122, 25%, 25%);
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+
+.title-1 {
+    text-align: center;
+    background-color: hsl(122, 25%, 25%);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.letter {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computer-letters, #player-letters {
+    height: 240px;
+}
+
